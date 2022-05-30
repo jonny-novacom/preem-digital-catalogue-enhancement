@@ -28,8 +28,16 @@ const GlobalStyles = createGlobalStyle`
     .printer-w {
         width: 5rem !important;
     }
-    .scale {
+    .scale-havoline {
         transform: scale(0.45);
+        transform-origin: 0 0;
+    }
+    .scale-delo {
+        transform: scale(0.53);
+        transform-origin: 0 0;
+    }
+    .scale-transmission {
+        transform: scale(0.43);
         transform-origin: 0 0;
     }
 }
