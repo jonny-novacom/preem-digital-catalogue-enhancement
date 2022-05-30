@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    td {
+      @apply p-2 text-center border-r border-gray-300;
+    }
+    tr {
+        @apply even:bg-gray-200;
+    }
+    p {
+      @apply font-gothamNarrow;
+    }
+  }
