@@ -1,13 +1,11 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React, { useState } from "react";
-import { Button, Modal } from "react-bootstrap";
-import styled from "styled-components";
+import { Modal } from "react-bootstrap";
 
 export default function DownloadModal() {
   const [show, setShow] = useState(true);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
 
   return (
     <>
