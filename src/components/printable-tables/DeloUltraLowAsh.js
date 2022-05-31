@@ -69,6 +69,12 @@ const ComponentToPrint = forwardRef((props, ref) => {
   return (
     <div className="overflow-x-scroll">
       <div ref={ref}>
+        <h3 className="hidden w-[190%] mt-12 mb-8 text-5xl font-bold text-center text-preemGreen font-gothamNarrow printable">
+          Översikt specifikationer motoroljor Texaco Delo
+        </h3>
+        <h4 className="hidden w-[190%] mt-12 mb-24 text-5xl font-bold text-center text-preemGreen font-gothamNarrow printable">
+          Ultra Low Ash
+        </h4>
         <div className="pb-2 font-medium border-b-8 border-black w-max font-gothamNarrow">
           <div className="inline-block px-2 text-left w-60 ml-15 printer-ml">
             Produkt
