@@ -40,11 +40,10 @@ const GlobalStyles = createGlobalStyle`
         transform: scale(0.43);
         transform-origin: 0 0;
     }
+    .printable {
+        display: block;
+     }
 }
-
-.printable {
-    display: block;
- }
 
  a {
     text-decoration: none !important;
