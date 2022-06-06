@@ -124,8 +124,19 @@ export default function MarineCarousel() {
       <h3 className="px-4 text-2xl font-bold text-center text-preemGreen font-gothamNarrow">
         {marineproductcarousel.nodes[0].title}
       </h3>
-      <p className="px-4 mt-2 mb-8 font-normal text-center text-gray-500 text-md font-gothamNarrow">
+      <p className="px-4 mt-2 mb-2 font-normal text-center text-gray-500 text-md font-gothamNarrow">
         {marineproductcarousel.nodes[0].subtitle}
+      </p>
+      <p className="px-4 mt-2 mb-8 font-normal text-center text-gray-500 text-md font-gothamNarrow">
+        För havsbaserad sjöfart, se{" "}
+        <a
+          href="https://www.chevronmarineproducts.com/"
+          target="_blank"
+          className="font-bold text-preemGreen"
+        >
+          Chevron Marine Products
+        </a>
+        .
       </p>
       <div className="px-10">
         <Slider {...settings}>

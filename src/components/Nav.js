@@ -99,7 +99,7 @@ export default function Nav() {
                           </div>
                           <div className="flex-auto">
                             <span className="inline mt-2 font-bold align-top">
-                              Motoroljor för personbil och lätta transportfordon
+                              Motoljor för personbilar och lätta transportfordon
                             </span>
                           </div>
                         </div>
@@ -211,11 +211,7 @@ export default function Nav() {
                       </Link>
                     </li>
                     <li className="h-16 py-2 text-xl font-gothamNarrow text-preemGreen">
-                      <Link
-                        to="/chemicals"
-                        onClick={closeNavBar}
-                        className="hover:brightness-75 "
-                      >
+                      <Link to="/chemicals" onClick={closeNavBar}>
                         <div className="flex">
                           <div className="flex-none">
                             <span className="inline-block w-20 pr-8">
