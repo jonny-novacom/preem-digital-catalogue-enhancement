@@ -40,13 +40,13 @@ const SiteProvider = ({ children }) => {
     setStandardsTableIsToggled(!standardsTableIsTogged);
   };
 
-  const openStandardsTable = () => {
-    setStandardsTableIsToggled(true);
-  };
+  // const openStandardsTable = () => {
+  //   setStandardsTableIsToggled(true);
+  // };
 
-  const closeStandardsTable = () => {
-    setStandardsTableIsToggled(false);
-  };
+  // const closeStandardsTable = () => {
+  //   setStandardsTableIsToggled(false);
+  // };
 
   return (
     <SiteContext.Provider

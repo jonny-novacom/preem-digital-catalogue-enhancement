@@ -91,9 +91,7 @@ export default function ContactPage({ data: { contactPageBanner } }) {
               ett av världens bästa och beprövade smörjmedel.
             </p>
             <p className="px-4 mt-2 mb-3 text-2xl font-bold leading-9 text-center text-md text-preemGreen font-gothamNarrow">
-              <span className="block font-bold">
-                Mer information om smörjmedel Kundservice
-              </span>
+              <span className="block font-bold">Kontakta oss här</span>
             </p>
             <div className="grid grid-cols-6 gap-2 mb-8">
               <div className="col-span-6 sm:col-span-3 md:col-span-2 md:col-start-2">
