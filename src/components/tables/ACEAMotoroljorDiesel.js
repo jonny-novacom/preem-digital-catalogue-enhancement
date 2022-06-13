@@ -5,10 +5,10 @@ export default function ACEAMotoroljorDiesel() {
     <>
       <div>
         <h3 className="text-2xl font-bold text-center text-preemGreen font-gothamNarrow">
-          ACEA motoroljor 2016
+        ACEA motoroljor 2022
         </h3>
         <p className="mt-2 mb-4 font-normal text-left text-gray-500 text-md font-gothamNarrow">
-          Dieselmotorer i tunga fordon.
+        Dieselmotorer i tunga fordon.
         </p>
         <table className="w-full overflow-x-scroll font-medium shadow-none table-auto font-gothamNarrow">
           <tbody>
@@ -27,32 +27,20 @@ export default function ACEAMotoroljorDiesel() {
               <td>High</td>
               <td>≥12</td>
               <td className="text-left">
-                Viskositetsstabil olja som ger utmärkt kolvrenhet, slitageskydd,
-                sothantering och oljestabilitet. Den rekommenderas för högt
-                belastade motorer som möter utsläppskraven Euro I, II, III, IV
-                samt V och har mycket svåra driftförhållanden t ex signifikant
-                förlängda bytesintervall. Den är lämplig för motorer{" "}
-                <span className="font-medium">utan</span> partikelfilter, vissa
-                EGR-motorer samt vissa motorer utrustade med SCR NOx-reducering.
+              Viskositetsstabil olja som ger utmärkt kolvrenhet, slitageskydd, sothantering och oljestabilitet. Den rekommenderas för högt belastade motorer som möter utsläppskraven Euro I, II, III, IV samt V och har mycket svåra driftförhållanden t ex signifikant förlängda bytesintervall. Den är lämplig för motorer utan partikelfilter, vissa EGR-motorer samt vissa motorer utrustade med SCR NOx-reducering.
               </td>
             </tr>
             <tr className="font-normal">
-              <td className="pl-4 font-medium text-left">E6</td>
+              <td className="pl-4 font-medium text-left">E6 <span className="text-red-700">Utgått!</span></td>
               <td>≥3,5</td>
               <td>≤1,0</td>
               <td>Low</td>
               <td>≥7</td>
               <td className="text-left">
-                Viskositetsstabil olja som ger utmärkt kolvrenhet, slitageskydd,
-                sothantering och oljestabilitet. Den rekommenderas för högt
-                belastade motorer som möter utsläppskraven Euro I, II, III, IV
-                samt V och har mycket svåra driftförhållanden t ex signifikant
-                förlängda bytesintervall. Den är lämplig för EGR-motorer, med
-                eller utan partikelfilter, och motorer utrustade med SCR NO
+              Viskositetsstabil olja som ger utmärkt kolvrenhet, slitageskydd, sothantering och oljestabilitet. Den rekommenderas för högt belastade motorer som möter utsläppskraven Euro I, II, III, IV samt V och har mycket svåra driftförhållanden t ex signifikant förlängda bytesintervall. Den är lämplig för EGR-motorer, med eller utan partikelfilter, och motorer utrustade med SCR NO
                 <sub>x</sub>-reducering.{" "}
                 <span className="italic">
-                  E6 rekommenderas starkt för motorer utrustade med
-                  partikelfilter.
+                E6 rekommenderas starkt för motorer utrustade med partikelfilter.
                 </span>
               </td>
             </tr>
@@ -63,32 +51,45 @@ export default function ACEAMotoroljorDiesel() {
               <td>High</td>
               <td>≥9</td>
               <td className="text-left">
-                Viskositetsstabil olja som ger utmärkt kolvrenhet, skydd mot
-                cylinderpolering, slitageskydd, sothantering och oljestabilitet.
-                Den rekommenderas för högt belastade motorer som möter
-                utsläppskraven Euro I, II, III, IV samt V och har svåra
-                driftförhållanden t ex förlängda bytesintervall. Den är lämplig
-                för motorer utan partikelfilter, vissa EGR-motorer samt de
-                flesta motorer utrustade med SCR NO<sub>x</sub>-reducering.
+              Viskositetsstabil olja som ger utmärkt kolvrenhet, skydd mot cylinderpolering, slitageskydd, sothantering och oljestabilitet. Den rekommenderas för högt belastade motorer som möter utsläppskraven Euro I, II, III, IV samt V och har svåra driftförhållanden t ex förlängda bytesintervall. Den är lämplig för motorer utan partikelfilter, vissa EGR-motorer samt de flesta motorer utrustade med SCR NO<sub>x</sub>-reducering.
               </td>
             </tr>
+
             <tr className="font-normal">
-              <td className="pl-4 font-medium text-left">E9</td>
+              <td className="pl-4 font-medium text-left">E8</td>
               <td>≥3,5</td>
               <td>≤1,0</td>
               <td>Low</td>
               <td>≥7</td>
               <td className="text-left">
-                Viskositetsstabil olja som ger utmärkt kolvrenhet, skydd mot
-                cylinderpolering, slitageskydd, sothantering och oljestabilitet.
-                Den rekommenderas för högt belastade motorer som möter
-                utsläppskraven Euro I, II, III, IV samt V och har svåra
-                driftförhållanden, t ex förlängda bytesintervall. Den är lämplig
-                för EGR-motorer, med eller utan partikelfilter, och motorer
-                utrustade med SCR NO<sub>x</sub>-reducering.{" "}
+              Viskositetsstabil olja som ger utmärkt kolvrenhet, skydd mot cylinderpolering, slitageskydd, sothantering och oljestabilitet. Den rekommenderas för högt belastade motorer som möter utsläppskraven Euro I, II, III, IV, V samt VI och har svåra driftförhållanden t ex förlängda bytesintervall enligt tillverkarens rekommendationer. Den är lämplig för EGR-motorer, med eller utan partikelfilter, och motorer utrustade med SCR NOx-reducering. <span className="italic">E8 rekommenderas starkt för motorer utrustade med partikelfilter och är formulerad för användning i kombination med diesel med låg sulfathalt. Rekommendationer kan variera mellan motortillverkare. </span> 
+              </td>
+            </tr>
+
+            <tr className="font-normal">
+              <td className="pl-4 font-medium text-left">E9 <span className="text-red-700">Utgått!</span></td>
+              <td>≥3,5</td>
+              <td>≤1,0</td>
+              <td>Low</td>
+              <td>≥7</td>
+              <td className="text-left">
+              Viskositetsstabil olja som ger utmärkt kolvrenhet, skydd mot cylinderpolering, slitageskydd, sothantering och oljestabilitet. Den rekommenderas för högt belastade motorer som möter utsläppskraven Euro I, II, III, IV samt V och har svåra driftförhållanden, t ex förlängda bytesintervall. Den är lämplig för EGR-motorer, med eller utan partikelfilter, och motorer utrustade med SCR NO<sub>x</sub>-reducering.{" "}
                 <span className="italic">
-                  E9 rekommenderas starkt för motorer utrustade med
-                  partikelfilter.
+                E9 rekommenderas starkt för motorer utrustade med partikelfilter.
+                </span>
+              </td>
+            </tr>
+
+            <tr className="font-normal">
+              <td className="pl-4 font-medium text-left">E11</td>
+              <td>≥3,5</td>
+              <td>≤1,0</td>
+              <td>Low</td>
+              <td>≥7</td>
+              <td className="text-left">
+              Viskositetsstabil olja som ger utmärkt kolvrenhet, skydd mot cylinderpolering, slitageskydd, sothantering och oljestabilitet. Den rekommenderas för högt belastade motorer som möter utsläppskraven Euro I, II, III, IV, V samt VI och har svåra driftförhållanden t ex förlängda bytesintervall enligt tillverkarens rekommendationer. Den är lämplig för EGR-motorer, med eller utan partikelfilter, och motorer utrustade med SCR NO<sub>x</sub>-reducering.{" "}
+                <span className="italic">
+                E11 rekommenderas starkt för motorer utrustade med partikelfilter och är formulerad för användning i kombination med diesel med låg sulfathalt. Rekommendationer kan variera mellan motortillverkare. 
                 </span>
               </td>
             </tr>
